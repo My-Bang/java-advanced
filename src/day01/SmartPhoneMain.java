@@ -15,6 +15,6 @@ public class SmartPhoneMain {
         smartPhone.bell();
 
         // SmartPone 으로부터 상속받은 메소드 호출
-        smartPhone.internet();
+        smartPhone.setWifi(true);
     }
 }
