@@ -26,10 +26,5 @@ public class CoffeShop {
     //결과와 같이 가격을 구하고 판매정보를 출력할 수 있도록 getSalesInfo메소드를 작성하세요
 
 
-
-
-
-
-
     //결과와 같이 총 판매금액을 구할 수 있도록 getTotalPrice메소드를 작성하세요.
 }

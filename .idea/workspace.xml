@@ -5,64 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="day01">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/AirPlane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/AirPlaneMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ChildEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/PromotionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/PromotionMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/SportCar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/SuperAirPlane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex01/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex01/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex01/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex01/SmartTV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex01/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex01/TVMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex01/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex02/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex02/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex02/DriverMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex02/Hourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex02/Taxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex02/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex03/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/ex03/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/inheritence/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/inheritence/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/inheritence/HankookTire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/inheritence/KumhoTire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/inheritence/Tire.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/inheritence/abstractex/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/inheritence/abstractex/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/inheritence/abstractex/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/inheritence/abstractex/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/package1/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/package2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/package2/D.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/protectedMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/test01/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/test01/Rectangular.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/test01/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/test01/TestShape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/test02/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/test02/CoffeShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/test02/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/test02/Tea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day01/test02/VideoShop.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/SmartPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/SmartPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/SmartPhoneMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/SmartPhoneMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day01/class_day_1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/class_day_1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day01/test02/CoffeShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day01/test02/CoffeShop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -214,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738545702008</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day01">
+      <option name="closed" value="true" />
+      <created>1738572252699</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738572252699</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
