@@ -11,20 +11,29 @@ public class CoffeShop {
         beverage[4] = new Tea("redginsengTea");
         getSalesInfo(beverage);
 
-       // System.out.println("총 판매 금액==>"+getTotalPrice(beverage));
-        System.out.println("Coffe의 판매 개수=>"+Coffee.amount+"잔");
-        System.out.println("Tea의 판매 개수=>"+Tea.amount+"잔");
+         System.out.println("총 판매 금액==>"+getTotalPrice(beverage));
+        System.out.println("Coffe의 판매 개수=>" + Coffee.amount + "잔");
+        System.out.println("Tea의 판매 개수=>" + Tea.amount + "잔");
     }
-
-//    private static String getTotalPrice(Beverage[] beverage) {
-//        return
-//    }
-
-    private static void getSalesInfo(Beverage[] beverage) {
-
-    }
-    //결과와 같이 가격을 구하고 판매정보를 출력할 수 있도록 getSalesInfo메소드를 작성하세요
-
 
     //결과와 같이 총 판매금액을 구할 수 있도록 getTotalPrice메소드를 작성하세요.
+
+    public static int getTotalPrice(Beverage[] beverages) {
+        int totalPrice = 0;
+        for (Beverage beverage : beverages) {
+            totalPrice += beverage.getPrice();
+        }
+        return totalPrice;
+    }
+
+
+    //결과와 같이 가격을 구하고 판매정보를 출력할 수 있도록 getSalesInfo메소드를 작성하세요
+
+    private static void getSalesInfo(Beverage[] beverage) {
+        for (int i = 0; i < beverage.length; i++) {
+            beverage[i].print(i + 1);
+        }
+    }
+
+
 }

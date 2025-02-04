@@ -9,9 +9,5 @@ public class TestShape {
         for (Shape s : shape) {
             s.print();
         }
-
     }
-
-
-
 }
