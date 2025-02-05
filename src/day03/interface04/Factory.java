@@ -15,6 +15,14 @@ public abstract class Factory {
         return name;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
     int getWorkingTime(){
         return closeHour - openHour;
     }

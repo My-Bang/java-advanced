@@ -5,23 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="day03">
-      <change afterPath="$PROJECT_DIR$/src/day03/interface03/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface03/AnimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface03/Cheatable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface03/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface03/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface04/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface04/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface04/FactoryExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface04/IWorkingTogether.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface04/TVFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03/day03_class.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/day03_class.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03/interface01/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/interface01/Radio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03/interface01/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/interface01/RemoteControl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03/interface01/RemoteControlMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/interface01/RemoteControlMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03/interface01/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/interface01/TV.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day03/interface02/AnimalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/interface02/AnimalMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/interface04/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/interface04/Factory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/interface04/FactoryExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/interface04/FactoryExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/interface04/IWorkingTogether.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/interface04/IWorkingTogether.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -235,7 +222,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738726517289</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="day03">
+      <option name="closed" value="true" />
+      <created>1738744079357</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738744079357</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
