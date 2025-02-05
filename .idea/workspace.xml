@@ -4,29 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="day01">
-      <change afterPath="$PROJECT_DIR$/src/data.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/day02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/exception/ex01/Exception01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/exception/ex01/Exception02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/exception/ex02/resourceEx/FileEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/exception/ex02/resourceEx/FileTryWithResourceEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/exception/ex02/resourceEx/MyResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/exception/ex02/resourceEx/TryWithResourceEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/exception/throwsEx/ThrowsEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/exception/throwsEx/userDefineEx/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/exception/throwsEx/userDefineEx/InsufficientEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/exception/throwsEx/userDefineEx/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/sealeEx/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/sealeEx/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/sealeEx/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/sealeEx/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/sealeEx/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/test01/Prob1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/test02/PayException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/test02/PayMentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day02/test02/Payable.java" afterDir="false" />
+    <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="day02">
+      <change afterPath="$PROJECT_DIR$/src/day03/day03_class.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface01/Radio.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface01/RemoteControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface01/RemoteControlMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface01/TV.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface02/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface02/AnimalMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface02/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface02/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface02/Pet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface02/Tail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day02/test01/Prob1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/test01/Prob1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +28,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -64,6 +56,7 @@
     "last_opened_file_path": "C:/study/java/java-advanced",
     "onboarding.tips.debug.path": "C:/study/java/java-advanced/src/Main.java",
     "애플리케이션.AirPlaneMain.executor": "Run",
+    "애플리케이션.AnimalMain.executor": "Run",
     "애플리케이션.Calculator.executor": "Run",
     "애플리케이션.CarMain.executor": "Run",
     "애플리케이션.Circle.executor": "Run",
@@ -77,6 +70,7 @@
     "애플리케이션.Prob1 (1).executor": "Run",
     "애플리케이션.Prob1.executor": "Run",
     "애플리케이션.PromotionMain.executor": "Run",
+    "애플리케이션.RemoteControlMain.executor": "Run",
     "애플리케이션.SmartPhoneMain.executor": "Run",
     "애플리케이션.TVMain.executor": "Run",
     "애플리케이션.TestShape.executor": "Run",
@@ -95,13 +89,13 @@
       <recent name="day02.exception.ex02.resourceEx" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main">
-    <configuration name="FileTryWithResourceEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.exception.ex02.resourceEx.FileTryWithResourceEx" />
+  <component name="RunManager" selected="애플리케이션.RemoteControlMain">
+    <configuration name="AnimalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.interface02.AnimalMain" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.exception.ex02.resourceEx.*" />
+          <option name="PATTERN" value="day03.interface02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowsEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.exception.throwsEx.ThrowsEx" />
+    <configuration name="RemoteControlMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.interface01.RemoteControlMain" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.exception.throwsEx.*" />
+          <option name="PATTERN" value="day03.interface02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.RemoteControlMain" />
+        <item itemvalue="애플리케이션.AnimalMain" />
         <item itemvalue="애플리케이션.Prob1" />
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Prob1 (1)" />
-        <item itemvalue="애플리케이션.ThrowsEx" />
-        <item itemvalue="애플리케이션.FileTryWithResourceEx" />
       </list>
     </recent_temporary>
   </component>
@@ -213,11 +207,20 @@
       <option name="project" value="LOCAL" />
       <updated>1738638859893</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="day02">
+      <option name="closed" value="true" />
+      <created>1738658213012</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738658213012</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day01" />
-    <option name="LAST_COMMIT_MESSAGE" value="day01" />
+    <MESSAGE value="day02" />
+    <option name="LAST_COMMIT_MESSAGE" value="day02" />
   </component>
 </project>
