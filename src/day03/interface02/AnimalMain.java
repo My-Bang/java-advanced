@@ -17,8 +17,8 @@ public interface AnimalMain {
         pet = new Dog();
         pet.paly();
 
-        Cat.tail();
-        Dog.tail();
+//        Cat.tail();
+//        Dog.tail();
 
     }
 

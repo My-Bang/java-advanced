@@ -4,20 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="day02">
-      <change afterPath="$PROJECT_DIR$/src/day03/day03_class.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface01/Radio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface01/RemoteControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface01/RemoteControlMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface01/TV.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface02/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface02/AnimalMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface02/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface02/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface02/Pet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day03/interface02/Tail.java" afterDir="false" />
+    <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="day03">
+      <change afterPath="$PROJECT_DIR$/src/day03/interface03/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface03/AnimalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface03/Cheatable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface03/Chicken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface03/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface04/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface04/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface04/FactoryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface04/IWorkingTogether.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day03/interface04/TVFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day02/test01/Prob1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day02/test01/Prob1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/day03_class.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/day03_class.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/interface01/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/interface01/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/interface01/RemoteControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/interface01/RemoteControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/interface01/RemoteControlMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/interface01/RemoteControlMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/interface01/TV.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/interface01/TV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day03/interface02/AnimalMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day03/interface02/AnimalMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,10 +57,11 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/study/java/java-advanced",
+    "last_opened_file_path": "C:/study/Practice_0122",
     "onboarding.tips.debug.path": "C:/study/java/java-advanced/src/Main.java",
     "애플리케이션.AirPlaneMain.executor": "Run",
     "애플리케이션.AnimalMain.executor": "Run",
+    "애플리케이션.AnimalTest.executor": "Run",
     "애플리케이션.Calculator.executor": "Run",
     "애플리케이션.CarMain.executor": "Run",
     "애플리케이션.Circle.executor": "Run",
@@ -64,6 +69,7 @@
     "애플리케이션.DriverMain.executor": "Run",
     "애플리케이션.Exception01.executor": "Run",
     "애플리케이션.Exception02.executor": "Run",
+    "애플리케이션.FactoryExample.executor": "Run",
     "애플리케이션.FileEx.executor": "Run",
     "애플리케이션.FileTryWithResourceEx.executor": "Run",
     "애플리케이션.Main.executor": "Run",
@@ -89,7 +95,7 @@
       <recent name="day02.exception.ex02.resourceEx" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.RemoteControlMain">
+  <component name="RunManager" selected="애플리케이션.FactoryExample">
     <configuration name="AnimalMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day03.interface02.AnimalMain" />
       <module name="java-advanced" />
@@ -103,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day02.exception.throwsEx.userDefineEx.Main" />
+    <configuration name="AnimalTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.interface03.AnimalTest" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day02.exception.throwsEx.userDefineEx.*" />
+          <option name="PATTERN" value="day03.interface03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,9 +122,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Prob1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prob1" />
+    <configuration name="FactoryExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day03.interface04.FactoryExample" />
       <module name="java-advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day03.interface04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.FactoryExample" />
+        <item itemvalue="애플리케이션.AnimalTest" />
         <item itemvalue="애플리케이션.RemoteControlMain" />
         <item itemvalue="애플리케이션.AnimalMain" />
         <item itemvalue="애플리케이션.Prob1" />
-        <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.Prob1 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -215,12 +227,21 @@
       <option name="project" value="LOCAL" />
       <updated>1738658213012</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day03">
+      <option name="closed" value="true" />
+      <created>1738726517288</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738726517289</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="day01" />
     <MESSAGE value="day02" />
-    <option name="LAST_COMMIT_MESSAGE" value="day02" />
+    <MESSAGE value="day03" />
+    <option name="LAST_COMMIT_MESSAGE" value="day03" />
   </component>
 </project>

@@ -35,6 +35,11 @@ public interface RemoteControlMain {
         // 2. 리모컨을 이용하여 라디오를 켠다.
         // 3. 리모컨을 이용하여 볼륨을 20으로 설정하고 설정값을 확인한다.
         // 4. 리모컨을 이용하여 라디오를 끈다.
+        remoteControl.setMute(true);    // 디폴드 메소드 호출
+        remoteControl.setMute(false);
+        RemoteControl.changeBattery();
 
     }
+
+
 }
