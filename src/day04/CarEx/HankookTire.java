@@ -1,6 +1,6 @@
-package day01.inheritence;
+package day04.CarEx;
 
-public class HankookTire extends Tire{
+public class HankookTire implements Tire {
     @Override
     public void roll() {
         System.out.println("한국타이어 회전합니다.");
