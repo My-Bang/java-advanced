@@ -4,19 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="day04">
-      <change afterPath="$PROJECT_DIR$/src/day05/day05_class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex01/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex01/ABMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex02/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex02/ABMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex03/CreatureMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex03/CreatureMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex03/refact/CreatureMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex04/ABMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex05/ABLocalMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex05/refact/ABLocalMain.java" afterDir="false" />
+    <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="day05">
+      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/Hamburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/HamburgerLotteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/basic/Hamburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/basic/HamburgerLotteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/builderpattern/Hamburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/builderpattern/HamburgerLotteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/javabeans/Hamburger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/javabeans/HamburgerLotteria.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/lombok/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/lombok/PersonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/test01/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/test01/StudentMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-advanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-advanced.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/day05_class" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/day05_class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,14 +50,21 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/study/java/java-advanced/src/day05/innerClass/ex05/refact",
+    "last_opened_file_path": "C:/study/java/java-advanced/src/day05/innerClass/ex06/builderpattern",
     "onboarding.tips.debug.path": "C:/study/java/java-advanced/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "project.structure.last.edited": "라이브러리",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "애플리케이션.ABLocalMain (1).executor": "Run",
     "애플리케이션.ABLocalMain (2).executor": "Run",
     "애플리케이션.ABLocalMain (3).executor": "Run",
@@ -77,6 +87,7 @@
     "애플리케이션.FactoryExample.executor": "Run",
     "애플리케이션.FileEx.executor": "Run",
     "애플리케이션.FileTryWithResourceEx.executor": "Run",
+    "애플리케이션.HamburgerLotteria.executor": "Run",
     "애플리케이션.MAin.executor": "Run",
     "애플리케이션.Main.executor": "Run",
     "애플리케이션.Prob1 (1).executor": "Run",
@@ -85,6 +96,7 @@
     "애플리케이션.RemoteControlMain.executor": "Run",
     "애플리케이션.SmartPhoneMain.executor": "Run",
     "애플리케이션.SoundableExample.executor": "Run",
+    "애플리케이션.StudentMain.executor": "Run",
     "애플리케이션.TV.executor": "Run",
     "애플리케이션.TVMain.executor": "Run",
     "애플리케이션.TestShape.executor": "Run",
@@ -93,67 +105,30 @@
     "애플리케이션.VideoShop.executor": "Run",
     "애플리케이션.day01.inheritence.CarMain.executor": "Run",
     "애플리케이션.day01.inheritence.abstractex.Main.executor": "Run",
-    "애플리케이션.day05.innerClass.ex02.ABMain.executor": "Run"
+    "애플리케이션.day05.innerClass.ex02.ABMain.executor": "Run",
+    "애플리케이션.day05.innerClass.ex06.HamburgerLotteria.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\study\java\java-advanced\src\day05\innerClass\ex06\builderpattern" />
+      <recent name="C:\study\java\java-advanced\src\day05\innerClass\ex06\basic\javabeans" />
+      <recent name="C:\study\java\java-advanced\src\day05\innerClass\ex06\basic" />
       <recent name="C:\study\java\java-advanced\src\day05\innerClass\ex05\refact" />
       <recent name="C:\study\java\java-advanced\src\day05\innerClass\ex03\refact" />
-      <recent name="C:\study\java\java-advanced\src\day05\innerClass\ex02" />
-      <recent name="C:\study\java\java-advanced\src\day04\ex02" />
-      <recent name="C:\study\java\java-advanced\src\day04\ex03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\study\java\java-advanced\src\day02" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day05.innerClass.ex06.builderpattern" />
       <recent name="day04.interface03" />
       <recent name="day04.VehicleEx" />
       <recent name="day04.ex02" />
       <recent name="day02.exception.ex02.resourceEx" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.ABLocalMain">
-    <configuration name="ABLocalMain (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.innerClass.ex05.refact.ABLocalMain" />
-      <module name="java-advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day05.innerClass.ex05.refact.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ABLocalMain (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.innerClass.ex05.refact.ABLocalMain" />
-      <module name="java-advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day05.innerClass.ex05.refact.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ABLocalMain (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day05.innerClass.ex05.refact.ABLocalMain" />
-      <module name="java-advanced" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day05.innerClass.ex05.refact.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="애플리케이션.StudentMain">
     <configuration name="ABLocalMain (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day05.innerClass.ex05.refact.ABLocalMain" />
       <module name="java-advanced" />
@@ -180,13 +155,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HamburgerLotteria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.innerClass.ex06.builderpattern.HamburgerLotteria" />
+      <module name="java-advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05.innerClass.ex06.builderpattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.innerClass.ex06.test01.StudentMain" />
+      <module name="java-advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05.innerClass.ex06.test01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="day05.innerClass.ex06.HamburgerLotteria" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day05.innerClass.ex06.HamburgerLotteria" />
+      <module name="java-advanced" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day05.innerClass.ex06.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.StudentMain" />
+        <item itemvalue="애플리케이션.HamburgerLotteria" />
+        <item itemvalue="애플리케이션.day05.innerClass.ex06.HamburgerLotteria" />
         <item itemvalue="애플리케이션.ABLocalMain" />
         <item itemvalue="애플리케이션.ABLocalMain (5)" />
-        <item itemvalue="애플리케이션.ABLocalMain (4)" />
-        <item itemvalue="애플리케이션.ABLocalMain (3)" />
-        <item itemvalue="애플리케이션.ABLocalMain (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -287,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738824872368</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="day05">
+      <option name="closed" value="true" />
+      <created>1738896909926</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738896909926</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -295,6 +317,7 @@
     <MESSAGE value="day02" />
     <MESSAGE value="day03" />
     <MESSAGE value="day04" />
-    <option name="LAST_COMMIT_MESSAGE" value="day04" />
+    <MESSAGE value="day05" />
+    <option name="LAST_COMMIT_MESSAGE" value="day05" />
   </component>
 </project>
