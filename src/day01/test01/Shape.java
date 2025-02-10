@@ -14,7 +14,7 @@ public abstract class Shape {
     public abstract void calculationArea();
 
     public void print() {
-        System.out.println(name + "면적은 " + area);
+        System.out.println(name + "의 면적은 " + area);
     }
 
 }
