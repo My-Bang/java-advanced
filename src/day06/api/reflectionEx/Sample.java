@@ -20,8 +20,8 @@ public class Sample {
             throw new RuntimeException(e);
         }
 
-        System.out.println("1. "+cls.getSimpleName());
         System.out.println("2. "+cls.getPackage());
+        System.out.println("1. "+cls.getSimpleName());
         System.out.println("3. "+cls.getName());
         System.out.println("4. "+cls.toString());
         System.out.println("5. "+cls.toGenericString());
