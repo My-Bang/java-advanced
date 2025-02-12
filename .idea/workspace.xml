@@ -4,21 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="day07">
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/LinkedListEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparable/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparable/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparable/ProductTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparable/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparable/StudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparator/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/upcasting/Upcasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/day08_class.txt" afterDir="false" />
+    <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="day08">
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/map/HashMapEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/set/HashSetEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/set/HashSetMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/set/Member.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/study/a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/day08_class.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/day08_class.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +90,9 @@
     "애플리케이션.FormatEx.executor": "Run",
     "애플리케이션.GennericMethodEx.executor": "Run",
     "애플리케이션.HamburgerLotteria.executor": "Run",
+    "애플리케이션.HashMapEx.executor": "Run",
+    "애플리케이션.HashSetEx.executor": "Run",
+    "애플리케이션.HashSetMain.executor": "Run",
     "애플리케이션.LinkedListEx.executor": "Run",
     "애플리케이션.MAin.executor": "Run",
     "애플리케이션.Main (1).executor": "Run",
@@ -165,13 +161,13 @@
       <recent name="day04.ex02" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.day08.collection.list.sort.StudentTest">
-    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.collection.list.sort.comparator.Main1" />
+  <component name="RunManager" selected="애플리케이션.HashMapEx">
+    <configuration name="HashMapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.collection.map.HashMapEx" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.collection.list.sort.comparator.*" />
+          <option name="PATTERN" value="day08.collection.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -179,12 +175,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="workshop.SortedStudent" />
+    <configuration name="HashSetEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.collection.set.HashSetEx" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="workshop.*" />
+          <option name="PATTERN" value="day08.collection.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="workshop.StudentInput" />
+    <configuration name="HashSetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.collection.set.HashSetMain" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="workshop.*" />
+          <option name="PATTERN" value="day08.collection.set.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -205,12 +201,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="workshop.StudentOutput" />
+    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="study.a" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="workshop.*" />
+          <option name="PATTERN" value="study.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -233,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.HashMapEx" />
+        <item itemvalue="애플리케이션.HashSetMain" />
+        <item itemvalue="애플리케이션.HashSetEx" />
+        <item itemvalue="애플리케이션.a" />
         <item itemvalue="애플리케이션.day08.collection.list.sort.StudentTest" />
-        <item itemvalue="애플리케이션.SortedStudent" />
-        <item itemvalue="애플리케이션.StudentOutput" />
-        <item itemvalue="애플리케이션.StudentInput" />
-        <item itemvalue="애플리케이션.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739263497419</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="day08">
+      <option name="closed" value="true" />
+      <created>1739342623538</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1739342623538</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,6 +421,7 @@
     <MESSAGE value="study" />
     <MESSAGE value="day06" />
     <MESSAGE value="day07" />
-    <option name="LAST_COMMIT_MESSAGE" value="day07" />
+    <MESSAGE value="day08" />
+    <option name="LAST_COMMIT_MESSAGE" value="day08" />
   </component>
 </project>
