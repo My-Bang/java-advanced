@@ -4,37 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="day06">
-      <change afterPath="$PROJECT_DIR$/src/day07/collection/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/collection/BoardMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/collection/linkedlistmpl/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/collection/linkedlistmpl/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/collection/linkedlistmpl/SingleLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/day07_class.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/ex01/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/ex01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/ex02/Processor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/ex02/StringProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/ex03/Sample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/ex03/extendsEx/CompareUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/ex03/extendsEx/NumberBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/ex03/extendsEx/Utility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/ex04/Applicant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/ex04/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/ex04/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/ex04/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/lamdaEx/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/lamdaEx/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/lamdaEx/Pratice1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/lamdaEx/StreamEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/lamdaEx/Transformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/pratices/BoundedGenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/pratices/Box.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/genericEx/pratices/GennericMethodEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/reflectionEx/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day07/reflectionEx/PersonMain.java" afterDir="false" />
+    <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="day07">
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/LinkedListEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparable/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparable/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparable/ProductTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparable/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparable/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparator/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/collection/upcasting/Upcasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day08/day08_class.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/study/a.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day06/api/reflectionEx/Sample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day06/api/reflectionEx/Sample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,8 +97,11 @@
     "애플리케이션.FormatEx.executor": "Run",
     "애플리케이션.GennericMethodEx.executor": "Run",
     "애플리케이션.HamburgerLotteria.executor": "Run",
+    "애플리케이션.LinkedListEx.executor": "Run",
     "애플리케이션.MAin.executor": "Run",
+    "애플리케이션.Main (1).executor": "Run",
     "애플리케이션.Main.executor": "Run",
+    "애플리케이션.Main1.executor": "Run",
     "애플리케이션.Member1Main.executor": "Run",
     "애플리케이션.MemberMain.executor": "Run",
     "애플리케이션.PayMentTest.executor": "Run",
@@ -122,13 +109,18 @@
     "애플리케이션.Pratice1.executor": "Run",
     "애플리케이션.Prob1 (1).executor": "Run",
     "애플리케이션.Prob1.executor": "Run",
+    "애플리케이션.ProductTest.executor": "Run",
     "애플리케이션.PromotionMain.executor": "Run",
     "애플리케이션.RemoteControlMain.executor": "Run",
     "애플리케이션.Sample.executor": "Run",
     "애플리케이션.SmartPhoneMain.executor": "Run",
+    "애플리케이션.SortedStudent.executor": "Run",
     "애플리케이션.SoundableExample.executor": "Run",
     "애플리케이션.StreamEx.executor": "Run",
+    "애플리케이션.StudentInput.executor": "Run",
     "애플리케이션.StudentMain.executor": "Run",
+    "애플리케이션.StudentOutput.executor": "Run",
+    "애플리케이션.StudentTest.executor": "Run",
     "애플리케이션.TV.executor": "Run",
     "애플리케이션.TVMain.executor": "Run",
     "애플리케이션.TestShape.executor": "Run",
@@ -137,6 +129,7 @@
     "애플리케이션.UserMain.executor": "Run",
     "애플리케이션.Utility.executor": "Run",
     "애플리케이션.VideoShop.executor": "Run",
+    "애플리케이션.a.executor": "Run",
     "애플리케이션.day01.inheritence.CarMain.executor": "Run",
     "애플리케이션.day01.inheritence.abstractex.Main.executor": "Run",
     "애플리케이션.day01.test01.TestShape.executor": "Run",
@@ -146,35 +139,39 @@
     "애플리케이션.day05.innerClass.ex06.HamburgerLotteria.executor": "Run",
     "애플리케이션.day07.collection.linkedlistmpl.Main.executor": "Run",
     "애플리케이션.day07.genericEx.ex03.Sample.executor": "Run",
-    "애플리케이션.day07.genericEx.ex04.Main.executor": "Run"
+    "애플리케이션.day07.genericEx.ex04.Main.executor": "Run",
+    "애플리케이션.day08.collection.list.sort.StudentTest.executor": "Run",
+    "애플리케이션.day08.collection.list.sort.comparator.Main.executor": "Run",
+    "애플리케이션.study.Main.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\study\java\java-advanced\src\day08\collection\list\sort" />
+      <recent name="C:\study\java\java-advanced\src\day08\collection\list\sort\comparator" />
+      <recent name="C:\study\java\java-advanced\src" />
       <recent name="C:\study\java\java-advanced\src\day05\innerClass\ex06\builderpattern" />
       <recent name="C:\study\java\java-advanced\src\day05\innerClass\ex06\basic\javabeans" />
-      <recent name="C:\study\java\java-advanced\src\day05\innerClass\ex06\basic" />
-      <recent name="C:\study\java\java-advanced\src\day05\innerClass\ex05\refact" />
-      <recent name="C:\study\java\java-advanced\src\day05\innerClass\ex03\refact" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\study\java\java-advanced\src\workshop" />
       <recent name="C:\study\java\java-advanced\src\day02" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="day08.collection.list.sort.comparator" />
       <recent name="day05.innerClass.ex06.builderpattern" />
       <recent name="day04.interface03" />
       <recent name="day04.VehicleEx" />
       <recent name="day04.ex02" />
-      <recent name="day02.exception.ex02.resourceEx" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.day07.collection.linkedlistmpl.Main">
-    <configuration name="BoardMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.collection.listEx.BoardMain" />
+  <component name="RunManager" selected="애플리케이션.day08.collection.list.sort.StudentTest">
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.collection.list.sort.comparator.Main1" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.collection.listEx.*" />
+          <option name="PATTERN" value="day08.collection.list.sort.comparator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.genericEx.lamdaEx.Main" />
+    <configuration name="SortedStudent" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="workshop.SortedStudent" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.genericEx.lamdaEx.*" />
+          <option name="PATTERN" value="workshop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -195,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.genericEx.lamdaEx.StreamEx" />
+    <configuration name="StudentInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="workshop.StudentInput" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.genericEx.lamdaEx.*" />
+          <option name="PATTERN" value="workshop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -208,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.collection.linkedlistmpl.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.collection.linkedlistmpl.Main" />
+    <configuration name="StudentOutput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="workshop.StudentOutput" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.collection.linkedlistmpl.*" />
+          <option name="PATTERN" value="workshop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,12 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.genericEx.ex04.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.genericEx.ex04.Main" />
+    <configuration name="day08.collection.list.sort.StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day08.collection.list.sort.StudentTest" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.genericEx.ex04.*" />
+          <option name="PATTERN" value="day08.collection.list.sort.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,11 +233,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.day07.collection.linkedlistmpl.Main" />
-        <item itemvalue="애플리케이션.BoardMain" />
-        <item itemvalue="애플리케이션.day07.genericEx.ex04.Main" />
-        <item itemvalue="애플리케이션.StreamEx" />
-        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="애플리케이션.day08.collection.list.sort.StudentTest" />
+        <item itemvalue="애플리케이션.SortedStudent" />
+        <item itemvalue="애플리케이션.StudentOutput" />
+        <item itemvalue="애플리케이션.StudentInput" />
+        <item itemvalue="애플리케이션.Main1" />
       </list>
     </recent_temporary>
   </component>
@@ -389,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739173183842</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="day07">
+      <option name="closed" value="true" />
+      <created>1739263497419</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1739263497419</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -411,6 +416,7 @@
     <MESSAGE value="day05" />
     <MESSAGE value="study" />
     <MESSAGE value="day06" />
-    <option name="LAST_COMMIT_MESSAGE" value="day06" />
+    <MESSAGE value="day07" />
+    <option name="LAST_COMMIT_MESSAGE" value="day07" />
   </component>
 </project>
