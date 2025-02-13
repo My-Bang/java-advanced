@@ -5,13 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="day08">
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/map/HashMapEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/set/HashSetEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/set/HashSetMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day08/collection/set/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/day09_class.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/TestMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/other/SynchronizedMapEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/other/UnmodifiableEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/tree/binarySrarchTree/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/tree/binarySrarchTree/NodeMgmt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/tree/treemap/TreeMapEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/tree/treeset/TreeSetEx.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/study/a.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/workshop/DoubleLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/day08_class.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/day08_class.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/innerClass/ex06/basic/HamburgerLotteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/basic/HamburgerLotteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/innerClass/ex06/builderpattern/HamburgerLotteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/builderpattern/HamburgerLotteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day05/innerClass/ex06/javabeans/HamburgerLotteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/javabeans/HamburgerLotteria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day08/collection/list/sort/comparable/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparable/StudentTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +66,7 @@
     "project.structure.last.edited": "프로젝트",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "File.Encoding",
     "애플리케이션.ABLocalMain (1).executor": "Run",
     "애플리케이션.ABLocalMain (2).executor": "Run",
     "애플리케이션.ABLocalMain (3).executor": "Run",
@@ -80,6 +90,8 @@
     "애플리케이션.DaoExample.executor": "Run",
     "애플리케이션.DateExam.executor": "Run",
     "애플리케이션.DateTimeOperatorEx.executor": "Run",
+    "애플리케이션.DoubleLinkedList (1).executor": "Run",
+    "애플리케이션.DoubleLinkedList.executor": "Run",
     "애플리케이션.DriverMain.executor": "Run",
     "애플리케이션.Exception01.executor": "Run",
     "애플리케이션.Exception02.executor": "Run",
@@ -117,11 +129,21 @@
     "애플리케이션.StudentMain.executor": "Run",
     "애플리케이션.StudentOutput.executor": "Run",
     "애플리케이션.StudentTest.executor": "Run",
+    "애플리케이션.SynchronizedMapEx (1).executor": "Run",
+    "애플리케이션.SynchronizedMapEx (2).executor": "Run",
+    "애플리케이션.SynchronizedMapEx (3).executor": "Run",
+    "애플리케이션.SynchronizedMapEx (4).executor": "Run",
+    "애플리케이션.SynchronizedMapEx (5).executor": "Run",
+    "애플리케이션.SynchronizedMapEx.executor": "Run",
     "애플리케이션.TV.executor": "Run",
     "애플리케이션.TVMain.executor": "Run",
+    "애플리케이션.TestMain1.executor": "Run",
     "애플리케이션.TestShape.executor": "Run",
     "애플리케이션.ThrowsEx.executor": "Run",
+    "애플리케이션.TreeMapEx.executor": "Run",
+    "애플리케이션.TreeSetEx.executor": "Run",
     "애플리케이션.TryWithResourceEx.executor": "Run",
+    "애플리케이션.UnmodifiableEx.executor": "Run",
     "애플리케이션.UserMain.executor": "Run",
     "애플리케이션.Utility.executor": "Run",
     "애플리케이션.VideoShop.executor": "Run",
@@ -161,13 +183,13 @@
       <recent name="day04.ex02" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.HashMapEx">
-    <configuration name="HashMapEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.collection.map.HashMapEx" />
+  <component name="RunManager" selected="애플리케이션.TestMain1">
+    <configuration name="SynchronizedMapEx (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.other.SynchronizedMapEx" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.collection.map.*" />
+          <option name="PATTERN" value="day09.other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +197,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.collection.set.HashSetEx" />
+    <configuration name="SynchronizedMapEx (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.other.SynchronizedMapEx" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.collection.set.*" />
+          <option name="PATTERN" value="day09.other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,12 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.collection.set.HashSetMain" />
+    <configuration name="SynchronizedMapEx (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.other.SynchronizedMapEx" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.collection.set.*" />
+          <option name="PATTERN" value="day09.other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,12 +223,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="study.a" />
+    <configuration name="TestMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.lambda.TestMain1" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="study.*" />
+          <option name="PATTERN" value="day09.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,12 +236,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day08.collection.list.sort.StudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.collection.list.sort.StudentTest" />
+    <configuration name="UnmodifiableEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.other.UnmodifiableEx" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.collection.list.sort.*" />
+          <option name="PATTERN" value="day09.other.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,11 +251,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.HashMapEx" />
-        <item itemvalue="애플리케이션.HashSetMain" />
-        <item itemvalue="애플리케이션.HashSetEx" />
-        <item itemvalue="애플리케이션.a" />
-        <item itemvalue="애플리케이션.day08.collection.list.sort.StudentTest" />
+        <item itemvalue="애플리케이션.TestMain1" />
+        <item itemvalue="애플리케이션.UnmodifiableEx" />
+        <item itemvalue="애플리케이션.SynchronizedMapEx (5)" />
+        <item itemvalue="애플리케이션.SynchronizedMapEx (4)" />
+        <item itemvalue="애플리케이션.SynchronizedMapEx (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +420,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739342623538</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="day08">
+      <option name="closed" value="true" />
+      <created>1739349163899</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1739349163899</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
