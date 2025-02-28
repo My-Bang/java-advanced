@@ -4,24 +4,71 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="day08">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/day09_class.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/lambda/TestMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/other/SynchronizedMapEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/other/UnmodifiableEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/tree/binarySrarchTree/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/tree/binarySrarchTree/NodeMgmt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/tree/treemap/TreeMapEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day09/tree/treeset/TreeSetEx.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/study/a.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/workshop/DoubleLinkedList.java" afterDir="false" />
+    <list default="true" id="91c65e48-6034-48f8-8d7b-b3cb8a19b5b5" name="변경" comment="jdbc">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex01/Button.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex01/ButtonEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex01/Calculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex01/LambdaEx01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex01/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex01/WorkMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex01/Workable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex02/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex02/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex02/Sing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex02/Speakable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex02/Workable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex03/Calculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex03/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex04/Calculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex04/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex04/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex04/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex05/Comparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex05/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex05/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex06/Creatable1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex06/Creatable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex06/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex06/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day09/lambda/ex06/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day10/day10_class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/spring.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/ConnectionEx.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/boards/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/boards/BoardDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/boards/BoardInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/boards/BoardSelectALL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/boards/BoardSelectOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/boards/BoardUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/users/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/users/UserDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/users/UserInsert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/users/UserSelectAll.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/users/UserSelectOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/jdbc/users/UserUpdate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysql/account.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysql/boards.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mysql/storedprocedure.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/DTO/StudentDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/StudentFileIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/StudentManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/inter/SearchStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/inter/SortedStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/inter/StudentIO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/inter/StudentInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/student/inter/StudentOutput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/students.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/innerClass/ex06/basic/HamburgerLotteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/basic/HamburgerLotteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/innerClass/ex06/builderpattern/HamburgerLotteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/builderpattern/HamburgerLotteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day05/innerClass/ex06/javabeans/HamburgerLotteria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day05/innerClass/ex06/javabeans/HamburgerLotteria.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day08/collection/list/sort/comparable/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day08/collection/list/sort/comparable/StudentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-advanced.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-advanced.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/day09_class.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/day09_class.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day09/lambda/TestMain1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day09/lambda/ex01/TestMain1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jdbc/User_Management_Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jdbc/User_Management_Service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +86,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -58,15 +109,22 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/study/java/Student1",
+    "last_opened_file_path": "C:/study/java/java-advanced/src/mysql",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/study/java/java-advanced/src/Main.java",
-    "project.structure.last.edited": "프로젝트",
+    "project.structure.last.edited": "라이브러리",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "File.Encoding",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true",
     "애플리케이션.ABLocalMain (1).executor": "Run",
     "애플리케이션.ABLocalMain (2).executor": "Run",
     "애플리케이션.ABLocalMain (3).executor": "Run",
@@ -77,15 +135,23 @@
     "애플리케이션.AirPlaneMain.executor": "Run",
     "애플리케이션.AnimalMain.executor": "Run",
     "애플리케이션.AnimalTest.executor": "Run",
+    "애플리케이션.BoardDelete.executor": "Run",
+    "애플리케이션.BoardInsert.executor": "Run",
     "애플리케이션.BoardMain.executor": "Run",
+    "애플리케이션.BoardSelectALL.executor": "Run",
+    "애플리케이션.BoardSelectOne.executor": "Run",
+    "애플리케이션.BoardUpdate.executor": "Run",
     "애플리케이션.BoundedGenericMethod.executor": "Run",
     "애플리케이션.Box.executor": "Run",
+    "애플리케이션.ButtonEx.executor": "Run",
     "애플리케이션.Calculator.executor": "Run",
     "애플리케이션.CalendarEx.executor": "Run",
     "애플리케이션.CarMain.executor": "Run",
     "애플리케이션.Circle.executor": "Run",
     "애플리케이션.CoffeShop.executor": "Run",
     "애플리케이션.CompareUtil.executor": "Run",
+    "애플리케이션.Con.executor": "Run",
+    "애플리케이션.ConnectionEx.executor": "Run",
     "애플리케이션.CreatureMain1.executor": "Run",
     "애플리케이션.DaoExample.executor": "Run",
     "애플리케이션.DateExam.executor": "Run",
@@ -105,6 +171,7 @@
     "애플리케이션.HashMapEx.executor": "Run",
     "애플리케이션.HashSetEx.executor": "Run",
     "애플리케이션.HashSetMain.executor": "Run",
+    "애플리케이션.LambdaEx01.executor": "Run",
     "애플리케이션.LinkedListEx.executor": "Run",
     "애플리케이션.MAin.executor": "Run",
     "애플리케이션.Main (1).executor": "Run",
@@ -144,7 +211,13 @@
     "애플리케이션.TreeSetEx.executor": "Run",
     "애플리케이션.TryWithResourceEx.executor": "Run",
     "애플리케이션.UnmodifiableEx.executor": "Run",
+    "애플리케이션.UserDelete.executor": "Run",
+    "애플리케이션.UserInsert.executor": "Run",
     "애플리케이션.UserMain.executor": "Run",
+    "애플리케이션.UserSelectAll.executor": "Run",
+    "애플리케이션.UserSelectOne.executor": "Run",
+    "애플리케이션.UserUpdate.executor": "Run",
+    "애플리케이션.User_Management_Service.executor": "Run",
     "애플리케이션.Utility.executor": "Run",
     "애플리케이션.VideoShop.executor": "Run",
     "애플리케이션.a.executor": "Run",
@@ -160,36 +233,49 @@
     "애플리케이션.day07.genericEx.ex04.Main.executor": "Run",
     "애플리케이션.day08.collection.list.sort.StudentTest.executor": "Run",
     "애플리케이션.day08.collection.list.sort.comparator.Main.executor": "Run",
+    "애플리케이션.day09.lambda.ex03.Main.executor": "Run",
+    "애플리케이션.day09.lambda.ex05.Main.executor": "Run",
+    "애플리케이션.day09.lambda.ex06.Main.executor": "Run",
     "애플리케이션.study.Main.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ],
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\study\java\java-advanced" />
+      <recent name="C:\study\java\java-advanced\src" />
       <recent name="C:\study\java\java-advanced\src\day08\collection\list\sort" />
       <recent name="C:\study\java\java-advanced\src\day08\collection\list\sort\comparator" />
-      <recent name="C:\study\java\java-advanced\src" />
       <recent name="C:\study\java\java-advanced\src\day05\innerClass\ex06\builderpattern" />
-      <recent name="C:\study\java\java-advanced\src\day05\innerClass\ex06\basic\javabeans" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\study\java\java-advanced\src\images" />
+      <recent name="C:\study\java\java-advanced\src\mysql" />
       <recent name="C:\study\java\java-advanced\src\workshop" />
       <recent name="C:\study\java\java-advanced\src\day02" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="day08.collection.list.sort.comparator" />
-      <recent name="day05.innerClass.ex06.builderpattern" />
-      <recent name="day04.interface03" />
-      <recent name="day04.VehicleEx" />
-      <recent name="day04.ex02" />
+      <recent name="jdbc.boards" />
+      <recent name="jdbc.users" />
+      <recent name="day09.lambda.ex06" />
+      <recent name="day09.lambda.ex04" />
+      <recent name="day09.lambda.ex03" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.TestMain1">
-    <configuration name="SynchronizedMapEx (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.other.SynchronizedMapEx" />
+  <component name="RunManager" selected="애플리케이션.User_Management_Service">
+    <configuration name="BoardInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.boards.BoardInsert" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.other.*" />
+          <option name="PATTERN" value="jdbc.boards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -197,12 +283,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedMapEx (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.other.SynchronizedMapEx" />
+    <configuration name="BoardSelectALL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.boards.BoardSelectALL" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.other.*" />
+          <option name="PATTERN" value="jdbc.boards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,12 +296,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizedMapEx (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.other.SynchronizedMapEx" />
+    <configuration name="BoardSelectOne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.boards.BoardSelectOne" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.other.*" />
+          <option name="PATTERN" value="jdbc.boards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -223,12 +309,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.lambda.TestMain1" />
+    <configuration name="BoardUpdate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.boards.BoardUpdate" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.lambda.*" />
+          <option name="PATTERN" value="jdbc.boards.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,12 +322,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UnmodifiableEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day09.other.UnmodifiableEx" />
+    <configuration name="User_Management_Service" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jdbc.User_Management_Service" />
       <module name="java-advanced" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day09.other.*" />
+          <option name="PATTERN" value="jdbc.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -251,19 +337,23 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.TestMain1" />
-        <item itemvalue="애플리케이션.UnmodifiableEx" />
-        <item itemvalue="애플리케이션.SynchronizedMapEx (5)" />
-        <item itemvalue="애플리케이션.SynchronizedMapEx (4)" />
-        <item itemvalue="애플리케이션.SynchronizedMapEx (3)" />
+        <item itemvalue="애플리케이션.User_Management_Service" />
+        <item itemvalue="애플리케이션.BoardSelectALL" />
+        <item itemvalue="애플리케이션.BoardUpdate" />
+        <item itemvalue="애플리케이션.BoardInsert" />
+        <item itemvalue="애플리케이션.BoardSelectOne" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SQLScriptSettings">
+    <option name="outputLayout" value="File per object by schema and database.groovy" />
+    <option name="outputPath" value="C:\study\java\java-advanced\src\mysql" />
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-5cd809f4" />
-        <option value="jdk-21.0.2-openjdk-21.0.2-4caba194b151-4f524021" />
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.23654.189" />
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-IU-243.23654.189" />
       </set>
     </attachedChunks>
   </component>
@@ -275,6 +365,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1736313482795</updated>
+      <workItem from="1740619268944" duration="9249000" />
+      <workItem from="1740633348772" duration="97000" />
+      <workItem from="1740633619163" duration="517000" />
+      <workItem from="1740634283709" duration="1252000" />
+      <workItem from="1740637351623" duration="362000" />
+      <workItem from="1740637723473" duration="6137000" />
+      <workItem from="1740701617983" duration="5070000" />
+      <workItem from="1740708078857" duration="14799000" />
     </task>
     <task id="LOCAL-00001" summary="day01">
       <option name="closed" value="true" />
@@ -428,8 +526,35 @@
       <option name="project" value="LOCAL" />
       <updated>1739349163899</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="day09">
+      <option name="closed" value="true" />
+      <created>1739436576621</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1739436576622</updated>
+    </task>
+    <task id="LOCAL-00021" summary="jdbc">
+      <option name="closed" value="true" />
+      <created>1740707557578</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1740707557578</updated>
+    </task>
+    <task id="LOCAL-00022" summary="jdbc">
+      <option name="closed" value="true" />
+      <created>1740712081284</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1740712081284</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -452,6 +577,8 @@
     <MESSAGE value="day06" />
     <MESSAGE value="day07" />
     <MESSAGE value="day08" />
-    <option name="LAST_COMMIT_MESSAGE" value="day08" />
+    <MESSAGE value="day09" />
+    <MESSAGE value="jdbc" />
+    <option name="LAST_COMMIT_MESSAGE" value="jdbc" />
   </component>
 </project>

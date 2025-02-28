@@ -98,5 +98,71 @@ java.util.function 패키지는 다양한 수와 타입의 인수를 받을 수 
     Function<Integer,Integer> doubleValue =  createMultiplier(2);
     System.out.println(double.apply(5));
 
+    new Calculable() {
+    @Override
+    public void calculate(int x, int y) { System.out.println(x+y)}
+
+    (x,y) -> {System.out.println(x+y)};
+
+    public void action(Calculable cal){
+        int x = 10;
+        int y =20;
+        cal.calculate(x,y);
+    }
+    action(     // 데이터부
+    (x,y) -> int result = x + y;
+    System.out.println(result)
+    );
+
+    // 중요) 인터페이스의 익명 구현 객체를 람다식으로 표현하려면 인터페이스가 단 하나의 추상메소드만 가져야 한다.
+    인터페이스가 단 하나의 추산 메소드를 가질 때, 함수형 인터페이스 라고 한다.
+
+    @FunctionalInterface
+    public interface Runnable{
+    void run();
+    }                       () -> {.....}
+
+      @FunctionalInterface
+        public interface Runnable{
+        void run(int x, int y);
+        }           (x,y)->{.....}
+
+
+람다식
+메소드 참조 : 메소드를 참조하여 매개변수의 정보와 리턴타입을 알아내겠다.
+            람다식에서 불필요한 매개변수를 제거하는 것을 목적으로 한다.
+
+            (left, right) -> Math.max(left,right);
+            Math::max;
+
+정적(static)메소드와 인스턴스메소드 참조
+정적메소드 참조시  => :: 기호를 붙이고 정적메소드 이름을 기술한다.
+참조메서드 참조시 => :: 참조변수::메소드
+
+매개변수와 메소드 참조
+(a,b)->{a.instanceMethod(b);}
+클래스 :: instanceMethod
+
+String의 인스턴스 메소드
+
+
+***생성자 참조
+생성자를 참조한다는 의미는 객체를 생성한다 와 같다.
+(a,b)-> return new 클래스(a,b);
+생성자 참조 표현식
+클래스 :: new
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

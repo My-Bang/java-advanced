@@ -133,9 +133,6 @@ public class User_Management_Service {
                 pstmt.close();
 
             }
-            if (conn != null) {
-                conn.close();
-            }
 
         } catch (SQLException e) {
             e.printStackTrace();
