@@ -111,8 +111,9 @@ public class User_Management_Service {
             //DB 연결  후 쿼리 작성
             conn = DBUtil.getConnection();
 
-            String sql = "insert into users(userid, username,userpassword, memTel,memAddr)" +
-                    "values(?,?,?,?,?)";
+            String sql = new StringBuilder()
+                    .append("insert into users(userid, username,userpassword, memTel,memAddr)")
+                    .append("values(?,?,?,?,?)").toString();
             pstmt = conn.prepareStatement(sql);
 
             pstmt.setString(1, memId);
@@ -167,7 +168,7 @@ public class User_Management_Service {
             String sql = new StringBuilder()
                     .append("delete from users ")
                     .append("where userid = ? ").toString();
-             pstmt = conn.prepareStatement(sql);
+            pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, memId);
 
             int cnt = pstmt.executeUpdate();
@@ -235,13 +236,13 @@ public class User_Management_Service {
 
             String sql = new StringBuilder()
                     .append("update users set ")
-                    .append("username = ? ")
-                    .append("userpassword = ? ")
-                    .append("memTel = ? ")
+                    .append("username = ?, ")
+                    .append("userpassword = ?, ")
+                    .append("memTel = ?, ")
                     .append("memAddr = ? ")
                     .append("where userid = ? ").toString();
 
-             pstmt = conn.prepareStatement(sql);
+            pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, newMemName);
             pstmt.setString(2, newMemPass);
             pstmt.setString(3, newMemTel);
@@ -331,29 +332,26 @@ public class User_Management_Service {
         System.out.println();
         System.out.print("새로운 " + updateTitle + " >> ");
         String updateData = scan.nextLine();
-
+        System.out.println(updateData);
         try {
-            //DB 연결  후 쿼리 작성
+            //DB 연결 후 쿼리 작성
             conn = DBUtil.getConnection();
 
             String sql = new StringBuilder()
                     .append("update users set ")
-                    .append("updateField = ? ")
+                    .append(updateField + " = ? ")
                     .append("where userid = ? ").toString();
 
             pstmt = conn.prepareStatement(sql);
-            pstmt.setString(1, updateField);
+            pstmt.setString(1, updateData);
+            pstmt.setString(2, memId);
 
-            pstmt.setString(5, memId);
             int cnt = pstmt.executeUpdate();
 
             if (cnt > 0) {
                 System.out.println(memId + "회원 정보 수정 완료!!!");
-                pstmt.close();
-
             } else {
                 System.out.println(memId + "회원 정보 수정 실패~~~");
-                pstmt.close();
             }
 
         } catch (SQLException e) {
@@ -370,7 +368,6 @@ public class User_Management_Service {
             } catch (SQLException e) {
             }
         }
-
     }
 
 
@@ -401,8 +398,8 @@ public class User_Management_Service {
                 user.setUserid(rs.getString("userid"));
                 user.setUsername(rs.getString("username"));
                 user.setUserpassword(rs.getString("userpassword"));
-                user.setUserage(rs.getInt("memTel"));
-                user.setUseremail(rs.getString("memAddr"));
+                user.setMemTel(rs.getString("memTel"));
+                user.setMemAddr(rs.getString("memAddr"));
                 System.out.println(user);
             }
 
@@ -435,45 +432,42 @@ public class User_Management_Service {
         Connection conn = null;
         PreparedStatement pstmt = null;
         ResultSet rs = null;
-
         int count = 0;
+
         try {
             conn = DBUtil.getConnection();
             String sql = new StringBuilder()
-                    .append("select count(userid) from users ")
-                    .append("where userid = ? ")
-                    .toString();
-
-             pstmt = conn.prepareStatement(sql);
+                    .append("SELECT COUNT(userid) AS count ")
+                    .append("FROM users ")
+                    .append("WHERE userid = ?").toString();
+            pstmt = conn.prepareStatement(sql);
             pstmt.setString(1, memId);
 
-
-            // 4. SQL문 실행
             rs = pstmt.executeQuery();
+            if (rs.next()) {
+                count = rs.getInt("count");
+            }
 
-
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        } catch (ClassNotFoundException e) {
+        } catch (SQLException | ClassNotFoundException e) {
             throw new RuntimeException(e);
         } finally {
-            if (rs != null) try {
-                rs.close();
-            } catch (SQLException e) {
+            try {
+                if (rs != null) rs.close();
+            } catch (SQLException ignored) {
             }
-            if (pstmt != null) try {
-                pstmt.close();
-            } catch (SQLException e) {
+            try {
+                if (pstmt != null) pstmt.close();
+            } catch (SQLException ignored) {
             }
-            if (conn != null) try {
-                conn.close();
-            } catch (SQLException e) {
+            try {
+                if (conn != null) conn.close();
+            } catch (SQLException ignored) {
             }
         }
 
         return count;
-
     }
+
 
     // 메뉴를 출력하고 선택한 작업 번호를 반환하는 메서드
     private int displayMenu() {

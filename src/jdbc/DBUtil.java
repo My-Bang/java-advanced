@@ -24,12 +24,14 @@ public class DBUtil {
         // 1. JDBC 드라이버 등록 : MYSQL DB 접근 하기 위한 드라이버 등록
         Class.forName("com.mysql.cj.jdbc.Driver");
 
-        System.out.println("Driver loaded ok! " + connection);
+        //System.out.println("Driver loaded ok! " + connection);
 
 
         // 2. Mysql DB에 연결객체 얻어와서 연결하기
         connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/ssgdb?serverTimezone=Asia/Seoul", "ssg", "ssg1234");
-        System.out.println("Connection Ok!" + connection);
+        //System.out.println("Connection Ok!" + connection);
         return connection;
     }
+
+
 }
