@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/779d48da-58d9-4962-9b8b-0c9a24b7d798/console_3.sql" dialect="MySQL" />
+    <file url="file://$APPLICATION_CONFIG_DIR$/consoles/db/77ed15bf-5ba9-4e29-b66c-ce209eefbcc9/console_2.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/jdbc/User_Management_Service.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/jdbc/boards/BoardInsert.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/jdbc/users/UserInsert.java" dialect="GenericSQL" />
     <file url="file://$PROJECT_DIR$/src/jdbc/users/UserUpdate.java" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/src/modeling/신세계무역-데이터베이스생성스크립트.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/mysql/anonymous/sakila/customer_if.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/mysql/anonymous/sakila/film_in_stock.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/mysql/boards.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/mysql/normalization/normalization01.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/src/mysql/transaction/8_code_01.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/src/mysql/users.sql" dialect="MySQL" />
+    <file url="PROJECT" dialect="MySQL" />
   </component>
 </project>
